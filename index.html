@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Notice</title>
+
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+
+            /* repeating background */
+            background-image: url('BG.png');
+            background-repeat: repeat;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+
+            text-shadow:
+                2px 2px 0px black,
+                -2px -2px 0px black,
+                2px -2px 0px black,
+                -2px 2px 0px black;
+        }
+
+        .container img {
+            width: 120px;
+            height: 120px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- background music -->
+    <audio autoplay loop>
+        <source src="ok.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="container">
+        <img src="Cube.gif">
+
+        <div>
+            This thing i sended is not mine
+        </div>
+
+        <img src="Cube.gif">
+    </div>
+
+</body>
+</html>
